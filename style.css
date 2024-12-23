@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* 인덱스 스타일 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    /* background-color: black;
+    opacity: 0.4; */
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.05),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 216px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-top: 124px;
+    text-align: center;
+    font-family: "Noto Sans KR", serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    color: white;
+}
+.box03{
+    width: 100%;
+    padding-top: 57px;
+    text-align: center;
+}
+
+/* 서브페이지 스타일 */
+.font00{font-family: "Noto Sans KR", sans-serif;}
+.font01{font-size: 62px;font-weight: 100;letter-spacing: -1.5px;line-height: 75px;color: #fff;}
+.font02{font-size: 22px;font-weight: 300;letter-spacing: -0.6px;line-height: 38px;color: #fff;}
+.font03{font-size: 22px;font-weight: 700;letter-spacing: -0.6px;line-height: 38px;color: #fff;}
+.font04{font-size: 16px;font-weight: 300;letter-spacing: -1.4px;line-height: 26px;color: #fff;}
+.font05{font-size: 27px;font-weight: 700;letter-spacing: -0.6px;line-height: 38px;color: #fff;}
+.font06{font-size: 21px;font-weight: 300;letter-spacing: -0.6px;line-height: 32px;color: #fff;}
+.font07{font-size: 38px;font-weight: 700;letter-spacing: -0.6px;line-height: 38px;color: #fff;}
+.font08{font-size: 16px;font-weight: 300;letter-spacing: -0.6px;line-height: 28px;color: #fff;}
+.font09{font-size: 14px;font-weight: 300;letter-spacing: -0.6px;line-height: 23px;color: #fff;}
+
+/* 가장 큰 단위 블럭 스타일 정비 */
+.b01{height: 873px;position: relative;}
+.b02{height: 1021px;background-image: url(img/b02_02.png);}
+.b03{height: 1023px;background-color: #585858;}
+.b04{height: 695px;background-image: url(img/b04_01.png);}
+.b05{height: 695px;background-image: url(img/b05_01.png);}
+.b06{height: 695px;background-image: url(img/b06_01.png);}
+.b07{height: 430px;background-image: url(img/b07_01.png);}
+.b08{height: 797px;background-image: url(img/b08_03.png);}
+.b09{height: 797px;background-image: url(img/b09_03.png);}
+.b10{height: 797px;background-image: url(img/b10_03.png);}
+.b11{height: 797px;background-image: url(img/b11_03.png);}
+footer{height: 317px;background-color: #4D4D4D;}
+
+/* b01 블럭 세부 내역 정비 */
+.b01_01{position: relative;width: 365px;margin: 0 auto;display: flex;justify-content: space-between;}
+.b01_02{position: absolute;text-align: center;top: 574px;margin: 0 auto;width: 100%;}
+
+.b01_i01{padding-top: 49px;}
+.b01_i02{padding-top: 90px;}
+.b01_i03{padding-top: 49px;}
+.b01_i04{padding-top: 79px;}
+.b01_i05{padding-top: 49px;}
+.b01_i06{padding-top: 106px;}
+
+/* b02 블럭 세부 내역 정비 */
+.b02_01{text-align: center;padding-top: 53px;}
+.b02_02{text-align: center;margin-top: 15px;}
+.b02_03{text-align: center;margin-top: 15px;}
+
+/* b03 블럭 세부 내역 정비 */
+.b03_01{text-align: center;padding-top: 37px;}
+.b03_02{text-align: center;margin-top: 10px;}
+.b03_03{text-align: center;margin-top: 17px;}
+.b03_04{width: 382px;height: 184.5px;background-image: url(img/b03_02.png);position: relative;margin: 0 auto;margin-top: 23.5px;}
+.b03_05{width: 382px;height: 184.5px;background-image: url(img/b03_03.png);position: relative;margin: 0 auto;margin-top: 23.5px;}
+.b03_06{width: 382px;height: 184.5px;background-image: url(img/b03_04.png);position: relative;margin: 0 auto;margin-top: 23.5px;}
+.b03_04_t01, .b03_05_t01, .b03_06_t01{text-align: center;}
+.b03_04_t02, .b03_05_t02, .b03_06_t02{width: 259px;margin-left: 113px;margin-top: 23px;}
+.b03_06_t02{margin-top: 29px;}
+
+/* b04 블럭 세부 내역 정비 */
+.b04_01{text-align: center;padding-top: 54px;}
+.b04_02{text-align: center;width: 331px;margin: 0 auto;padding-top: 19px;}
+
+/* b05 블럭 세부 내역 정비 */
+.b05_01{text-align: center;padding-top: 54px;}
+.b05_02{text-align: center;width: 331px;margin: 0 auto;padding-top: 19px;}
+
+/* b06 블럭 세부 내역 정비 */
+.b06_01{text-align: center;padding-top: 54px;}
+.b06_02{text-align: center;width: 331px;margin: 0 auto;padding-top: 19px;}
+
+/* b08 블럭 세부 내역 정비 */
+.b08_01{text-align: center;padding-top: 100px;}
+.b08_02{text-align: center;margin-top: 33px;}
+.b08_03{background-image: url(img/b08_02.png);width: 357px;height: 117px;margin: 0 auto;display: flex;justify-content: center;align-items: center;margin-top: 36px;}
+/* b09 블럭 세부 내역 정비 */
+.b09_01{text-align: center;padding-top: 100px;}
+.b09_02{text-align: center;margin-top: 33px;}
+.b09_03{background-image: url(img/b09_02.png);width: 357px;height: 117px;margin: 0 auto;display: flex;justify-content: center;align-items: center;margin-top: 36px;}
+/* b10 블럭 세부 내역 정비 */
+.b10_01{text-align: center;padding-top: 100px;}
+.b10_02{text-align: center;margin-top: 33px;}
+.b10_03{background-image: url(img/b10_02.png);width: 357px;height: 117px;margin: 0 auto;display: flex;justify-content: center;align-items: center;margin-top: 36px;}
+/* b11 블럭 세부 내역 정비 */
+.b11_01{text-align: center;padding-top: 100px;}
+.b11_02{text-align: center;margin-top: 33px;}
+.b11_03{background-image: url(img/b11_02.png);width: 357px;height: 117px;margin: 0 auto;display: flex;justify-content: center;align-items: center;margin-top: 36px;}
+/* footer 세부 내역 정비 */
+.f01{width: 390px;margin: 0 auto;padding-top: 23px;}
+.f02{width: 390px;margin: 0 auto;margin-top: 17px;}
+.f03{width: 390px;margin: 0 auto;margin-top: 26px}
